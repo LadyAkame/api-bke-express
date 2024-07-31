@@ -1,0 +1,25 @@
+{
+  "name": "api-bke-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LadyAkame/api-bke-express.git"
+  },
+  "keywords": [
+    "api",
+    "express",
+    "zod",
+    "mvc"
+  ],
+  "author": "Laryssa Carmo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LadyAkame/api-bke-express/issues"
+  },
+  "homepage": "https://github.com/LadyAkame/api-bke-express#readme"
+}
