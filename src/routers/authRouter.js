@@ -1,17 +1,13 @@
 import express from 'express'
-
+import singupController from '../controllers/auth/singupController'
+import loginController from '../controllers/auth/loginController'
+import logoutController from '../controllers/auth/logoutController'
 const router = express.Router()
 
-router.post('/singup', (req, res) => {
-    res.json({message: "Rota de Auth/singup",})
-})
+router.post('/singup', singupController)
 
-router.post('/login', (req, res) => {
-    res.json({message: "Rota de Auth/login",})
-})
+router.post('/login', loginController)
 
-router.post('/logout', (req, res) => {
-    res.json({message: "Rota de Auth/logout",})
-})
+router.post('/logout', loginController)
 
 export default router
