@@ -7,7 +7,7 @@ import removeController from '../controllers/account/removeController.js'
 
 const router = express.Router()
 
-rrouter.post('/', createController)
+router.post('/', createController)
 router.get('/list', listController)
 router.get('/:id', getByIdController)
 router.put('/:id', updateController)
