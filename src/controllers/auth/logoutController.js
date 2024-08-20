@@ -1,7 +1,5 @@
-import router from "./singupControlller"
-
-const logout =  (req, res) => {
-    res.json({message: "Rota de Auth/logout",})
+const logout = (req, res) => {
+    res.json({message: "Rota de POST Auth/Logout"})
 }
 
-export default router
+export default logout

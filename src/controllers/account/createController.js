@@ -1,4 +1,5 @@
 const create = (req, res) => {
-    res.json({message: "Rota de POST Account",})
+    res.json({message: "Rota de POST Account"})
 }
+
 export default create
