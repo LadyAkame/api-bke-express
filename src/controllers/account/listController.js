@@ -5,7 +5,7 @@ const list = async (req, res) => {
     const account = await listAccounts()
     return res.json({
         message: "Contas listadas com sucesso!",
-        accounts
+        account
     })
 }
 
