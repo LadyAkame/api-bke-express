@@ -7,9 +7,9 @@
   "scripts": {
     "start": "node src/server.js",
     "dev": "node --env-file=.env --watch src/server.js",
-    "prisma:pull": "npx prisma pull --schema=./prisma/schema-production.local.prisma",
-    "prisma:push": "npx prisma db push --schema=./prisma/schema-production.local.prisma",
-    "prisma:generate": "npx prisma generate --schema=./prisma/schema-production.local.prisma",
+    "prisma:pull": "npx prisma pull --schema=./prisma/schema-production.prisma",
+    "prisma:push": "npx prisma db push --schema=./prisma/schema-production.prisma",
+    "prisma:generate": "npx prisma generate --schema=./prisma/schema-production.prisma",
     "prisma:loca:pull": "npx prisma pull --schema=./prisma/schema-local.prisma",
     "prisma:local:push": "npx prisma db push --schema=./prisma/schema-local.prisma",
     "prisma:local:generate": "npx prisma generate --schema=./prisma/schema-local.prisma"
